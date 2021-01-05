@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    }
+
+#map {
+    width: 95%;
+    height: 650px;
+    margin: 5em auto;
+}
+
+.mapboxgl-popup-content h4 {
+    font-weight: 500;
+    font-size: 0.5em;
+    border-width: 0px 0px 0.5px 0px;
+    border-style: solid;
+    border-color: rgb(80, 80, 80);
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.mapboxgl-popup-content p {
+    font-weight: 300;
+    margin-top: 0.3em;
+    margin-bottom: 0em;
+}
+#menu {
+    background: #fff;
+    position: absolute;
+    z-index: 1;
+    bottom: 30px;
+    right: 3em;
+    border-radius: 3px;
+    width: 120px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+   }
+#menu a {
+    font-size: 12px;
+    color: #404040;
+    display: block;
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(241, 240, 240, 0.25);
+    text-align: center;
+}
+#menu a:last-child {
+    border: none;
+}
+#menu a:hover {
+    background-color: #f8f8f8;
+    color: #000000;
+}
+#menu a.active {
+    background-color: #404040;
+    color: #ffffff;
+}
+#menu a.active:hover {
+    background: #000000;
+}
+.title {
+    background-color: #fff;
+    opacity: 90%;
+    border-radius: 1em;
+    top: 2em;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    font: .6em/.8em  ;
+    line-height: 1.2em;
+    padding: 1em 2em 0em;
+    position: absolute;
+    max-width: 25%;
+    margin: 9em 3em;
+    z-index: 100;
+    font-family: 'Times New Roman', Times, serif;
+}
+.title h1{
+    font-size: 1.8em;
+    opacity: 100%;
+}
+.title p {
+    line-height: 0.5em;
+    opacity: 100%;
+}
+.title div span {
+    border-radius: 50%;
+    display: inline-block;
+    height: 8px;
+    margin-left: 5px;
+    width: 10px;
+}
+.title hr {
+    border-top: .2em dashed #404040;
+    border-bottom: 0em;
+    margin-top: .75em;
+    margin-bottom: .75em;
+}
+.legend {
+    font: 1em/0.5em ;
+    padding: 1em 1em 2em 1em;
+    position: relative;
+    right: 10px;
+    z-index: 100;
+    opacity: 100%;
+}
+.legend h4 {
+    margin: 0 0 10px;
+    opacity: 100%
+}
+.legend div span {
+    border-radius: 0%;
+    display: inline-block;
+    height: 10px;
+    margin-top: 0px;
+    margin-right: 20px;
+    width: 10px;
+}
+.legend2 {
+    font: 1em/0.5em ;
+    padding: 1em 1em 1em 1em;
+    position: relative;
+    right: 10px;
+    z-index: 100;
+    opacity: 100%
+}
+.legend2 h4 {
+    margin: 0 0 0px;
+    opacity: 100%
+}
+.legend2 p {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.legend2 div span {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin: auto;
+    display: inline-block;
+    height: 5px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 5px;
+    opacity: 100%
+}
